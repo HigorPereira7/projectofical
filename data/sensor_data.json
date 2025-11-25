@@ -1,0 +1,20 @@
+[
+  {
+    "ph": 7.0,
+    "temp": 25.0,
+    "timestamp": "2023-01-01 10:00:00",
+    "device_id": "simulator"
+  },
+  {
+    "ph": 7.2,
+    "temp": 25.5,
+    "timestamp": "2023-01-01 10:05:00",
+    "device_id": "simulator"
+  },
+  {
+    "ph": 7.1,
+    "temp": 26.0,
+    "timestamp": "2023-01-01 10:10:00",
+    "device_id": "simulator"
+  }
+]

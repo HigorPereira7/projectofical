@@ -1,0 +1,2 @@
+admin@aquateste.com|Administrador|11999999999|$2y$12$Q5EPame.MnBjVV/iwh4b/.2pf.ZeY/26iN0QbJ5N9FUeK.jTMtWAu|admin|2025-11-24 23:30:00
+phigor637@gmail.com|Higor Pereira Da Silva|11960737165|$2y$10$gRdMvwbHJeVsDIQvO4yr5.0VY5OxJZ9n8u41s2v3xaZGIAqEqGg5O|user|2025-11-25 21:10:15
