@@ -325,7 +325,7 @@ header {
 
 .reading-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: justify;
     margin-top: 15px;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);

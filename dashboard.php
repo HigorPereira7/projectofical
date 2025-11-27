@@ -27,9 +27,38 @@ require_once 'includes/layouts/register.php';
 require_once 'includes/layouts/users.php';
 
 // Carregar dados
-$sensor_data = load_sensor_data();
-$latest_reading = !empty($sensor_data) ? end($sensor_data) : ['ph' => 7.0, 'temp' => 26.0, 'timestamp' => date('Y-m-d H:i:s')];
-$users = load_users();
+$esp_ip = "http://172.20.10.7/dados"; // coloque o IP real do ESP
+
+$latest_reading = null;
+
+try {
+    $json = file_get_contents($esp_ip);
+    if ($json !== false) {
+        $data = json_decode($json, true);
+
+        $latest_reading = [
+            'ph' => $data['ph'],
+            'temp' => $data['temperatura'],
+            'timestamp' => date('Y-m-d H:i:s')
+        ];
+
+        // opcional: salvar histórico local
+        $sensor_data = load_sensor_data();
+        $sensor_data[] = $latest_reading;
+        //save_sensor_data($sensor_data);
+
+    } else {
+        throw new Exception("Falha ao conectar ESP.");
+    }
+
+} catch (Exception $e) {
+    // fallback caso ESP esteja offline
+    $sensor_data = load_sensor_data();
+    $latest_reading = !empty($sensor_data)
+        ? end($sensor_data)
+        : ['ph' => 7.0, 'temp' => 26.0, 'timestamp' => date('Y-m-d H:i:s')];
+}
+
 
 // Variáveis para mensagens de sucesso
 $alarm_success = null;

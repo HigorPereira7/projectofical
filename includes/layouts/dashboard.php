@@ -17,7 +17,7 @@ function render_dashboard($sensor_data, $latest_reading, $alerts, $ph_alarm, $te
     <!-- Central de Controle de Equipamentos -->
     <div class="control-panel">
         <h3><i class="fas fa-sliders-h"></i> Central de Controle</h3>
-        <div class="equipment-grid">
+        <!--<div class="equipment-grid">
             <div class="equipment-item">
                 <div class="equipment-icon">
                     <i class="fas fa-lightbulb"></i>
@@ -164,7 +164,7 @@ function render_dashboard($sensor_data, $latest_reading, $alerts, $ph_alarm, $te
         <div class="reading-card">
             <div class="reading-icon">
                 <i class="fas fa-tint"></i>
-            </div>
+            </div>-->
             <h3>Nível de pH</h3>
             <div class="value <?= isset($alerts['ph']) ? 'alert-value' : '' ?>">
                 <?= number_format($latest_reading['ph'], 2) ?>
