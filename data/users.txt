@@ -1,3 +1,6 @@
 admin@aquateste.com|Administrador|11999999999|$2y$12$Q5EPame.MnBjVV/iwh4b/.2pf.ZeY/26iN0QbJ5N9FUeK.jTMtWAu|admin|2025-11-24 23:30:00
 phigor637@gmail.com|Higor Pereira Da Silva|11960737165|$2y$10$gRdMvwbHJeVsDIQvO4yr5.0VY5OxJZ9n8u41s2v3xaZGIAqEqGg5O|user|2025-11-25 21:10:15
 emile.bispo@etec.sp.gov.br|Widson|||user|2025-11-27 02:05:17
+rodrigo.lima@rodrigo.com|rodrigo||$2y$10$4f27mFbn8v7jfHIGUaNGgukAZFreOwAF2idktmiMiGj979FcnLCY2|2025-11-27 22:06:57
+higor13@gmail.com|Higor||$2y$10$rIwfSJvJr3Zjc0AO0ik6DeOkc.2.RJT3489ebkDhdqtnXjK7L8uMK|2025-11-27 23:31:37
+rodrigo@rodrigo.com|rodrigo||$2y$10$6qjXwH/Pvq61eLYISOzl2.6/OAy3NkW6wgNTenal3Dy/ycb94MK8u|2025-11-27 23:54:19
